@@ -3,8 +3,10 @@ import Title from "./Title";
 
 export default function Workshops() {
   return (
-    <div>
-      <Title />
-    </div>
+    <section className="section-background">
+      <div class="section-container">
+        <Title />
+      </div>
+    </section>
   );
 }
