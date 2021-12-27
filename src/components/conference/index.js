@@ -3,6 +3,7 @@ import Title from "./Title";
 import DateLoc from "./DateLoc";
 import Intro from "./Intro";
 import HomeRegister from "./HomeRegister";
+import Speakers from "./speakers";
 
 export default function Conference() {
   return (
@@ -11,6 +12,7 @@ export default function Conference() {
       <DateLoc />
       <Intro />
       <HomeRegister />
+      <Speakers />
     </section>
   );
 }
