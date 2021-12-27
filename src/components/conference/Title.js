@@ -9,7 +9,7 @@ export default function Title() {
           "url(https://2012.buildconf.com/images/nuts_red@2x.png)",
       }}
     >
-      <h2 className="pt-[9px] pb-[22px] text-[30px] text-white leading-[42px] text-center">
+      <h2 className="pt-[9px] pb-[22px] mb-[13px] text-[30px] text-white leading-[42px] text-center">
         Get Ready to Build
       </h2>
     </div>
