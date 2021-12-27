@@ -2,7 +2,7 @@
   "name": "btq-fe-assignment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://viggochang.github.io/BTQ-FE-Assignment/",
+  "homepage": "https://viggochang.github.io/BTQ-FE-Assignment",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
