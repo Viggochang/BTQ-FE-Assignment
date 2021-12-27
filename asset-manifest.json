@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Viggochang/BTQ-FE-Assignment/static/css/main.89a08858.css",
-    "main.js": "/Viggochang/BTQ-FE-Assignment/static/js/main.c233fa22.js",
-    "static/js/787.8f83f116.chunk.js": "/Viggochang/BTQ-FE-Assignment/static/js/787.8f83f116.chunk.js",
-    "index.html": "/Viggochang/BTQ-FE-Assignment/index.html",
-    "main.89a08858.css.map": "/Viggochang/BTQ-FE-Assignment/static/css/main.89a08858.css.map",
-    "main.c233fa22.js.map": "/Viggochang/BTQ-FE-Assignment/static/js/main.c233fa22.js.map",
-    "787.8f83f116.chunk.js.map": "/Viggochang/BTQ-FE-Assignment/static/js/787.8f83f116.chunk.js.map"
+    "main.css": "/BTQ-FE-Assignment/static/css/main.89a08858.css",
+    "main.js": "/BTQ-FE-Assignment/static/js/main.82b5fbd5.js",
+    "static/js/787.8f83f116.chunk.js": "/BTQ-FE-Assignment/static/js/787.8f83f116.chunk.js",
+    "index.html": "/BTQ-FE-Assignment/index.html",
+    "main.89a08858.css.map": "/BTQ-FE-Assignment/static/css/main.89a08858.css.map",
+    "main.82b5fbd5.js.map": "/BTQ-FE-Assignment/static/js/main.82b5fbd5.js.map",
+    "787.8f83f116.chunk.js.map": "/BTQ-FE-Assignment/static/js/787.8f83f116.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89a08858.css",
-    "static/js/main.c233fa22.js"
+    "static/js/main.82b5fbd5.js"
   ]
 }
