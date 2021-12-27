@@ -1,6 +1,7 @@
 import Header from "./components/header";
 import Pattern from "./components/pattern";
 import Conference from "./components/conference";
+import Workshops from "./components/workshops";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Pattern />
       <Conference />
+      <Workshops />
     </div>
   );
 }
