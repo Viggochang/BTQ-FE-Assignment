@@ -1,10 +1,9 @@
 import React from "react";
-import { festivalData } from "../../data/data";
 
-export default function Intro() {
+export default function Intro({ intro }) {
   return (
     <div className="intro-background">
-      <p className="intro-text text-[#909090]">{festivalData.intro}</p>
+      <p className="intro-text text-[#909090]">{intro}</p>
     </div>
   );
 }

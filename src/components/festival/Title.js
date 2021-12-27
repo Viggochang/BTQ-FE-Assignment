@@ -1,7 +1,6 @@
 import React from "react";
-import { festivalData } from "../../data/data";
 
-export default function Title() {
+export default function Title({ title }) {
   return (
     <div
       className="title-background"
@@ -10,7 +9,7 @@ export default function Title() {
           "url(https://2012.buildconf.com/images/nuts_white_red@2x.png)",
       }}
     >
-      <h2 className="title-text text-my-black pt-0">{festivalData.title}</h2>
+      <h2 className="title-text text-my-black pt-0">{title}</h2>
     </div>
   );
 }
