@@ -8,7 +8,7 @@ import Speakers from "./speakers";
 export default function Conference() {
   return (
     <section
-      className="section-background bg-primary bg-[length:1500px_171px] bg-bottom bg-repeat-x"
+      className="section-background section-bg-image"
       style={{
         "background-image":
           "url(https://2012.buildconf.com/images/conf_bg@2x2.png)",

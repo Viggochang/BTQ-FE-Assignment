@@ -4,6 +4,9 @@
 .section-background{
   @apply flex w-full px-[4vw] pt-[54px] pb-[171px] md:pt-[75px] md:px-[20px] md:pb-[214px];
 }
+.section-bg-image{
+  @apply bg-primary bg-[length:1500px_171px] bg-bottom bg-repeat-x;
+}
 
 .title-background{
   @apply mb-[13px] bg-[length:54px_11px] bg-no-repeat bg-bottom md:mb-[12px] lg:mb-[10px];
