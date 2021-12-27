@@ -1,5 +1,6 @@
 import React from "react";
 
-export default function NavigationItem() {
+export default function NavigationItem({ data }) {
+  const [date, activity] = data;
   return <div></div>;
 }

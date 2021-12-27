@@ -12,9 +12,9 @@ const data = [
 
 export default function Navigation() {
   return (
-    <nav>
+    <nav className="flex w-full h-full ml-[26.5%] justify-between content-between">
       {data.map((data) => (
-        <NavigationItem data={data} />
+        <NavigationItem key={data[0]} data={data} />
       ))}
     </nav>
   );
