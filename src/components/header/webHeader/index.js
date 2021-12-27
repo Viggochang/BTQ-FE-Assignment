@@ -3,7 +3,7 @@ import Navigation from "./navigation";
 
 export default function WebHeader() {
   return (
-    <header className="flex w-full h-[156px] py-[30px] bg-my-black">
+    <header className="hidden md:flex w-full h-[156px] py-[30px] bg-my-black">
       <div class="xl:container xl:mx-auto w-full">
         <div
           className="w-[20.5%] h-[90px] bg-no-repeat bg-cover bg-center absolute xl:w-[calc(1165px*0.205)]"
