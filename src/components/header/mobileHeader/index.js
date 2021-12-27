@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import NavIcon from "./navigation/NavIcon";
 import Navigation from "./navigation";
 
 export default function MobileHeader() {
+  const [display, setDisplay] = useState("hidden");
   return (
     <>
       <header className="flex w-full h-[48px] bg-my-black justify-between md:hidden">
@@ -13,9 +14,9 @@ export default function MobileHeader() {
               "url(https://2012.buildconf.com/images/logo-knockout@2x.png)",
           }}
         />
-        <NavIcon />
+        <NavIcon handleClick={setDisplay} display={display} />
       </header>
-      <Navigation />
+      <Navigation display={display} />
     </>
   );
 }

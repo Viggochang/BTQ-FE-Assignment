@@ -3,9 +3,10 @@ import NavigationItem from "./NavigationItem";
 
 import { navData } from "../../../../data/data";
 
-export default function Navigation() {
+export default function Navigation({ display }) {
+  const navigationStyle = `${display} w-full absolute top-[45px] px-[10px] pb-[3px] bg-my-black md:hidden`;
   return (
-    <div className="w-full absolute top-[45px] px-[10px] pb-[3px] bg-my-black">
+    <div className={navigationStyle}>
       {navData.map((data) => (
         <NavigationItem key={data.day} data={data} />
       ))}
