@@ -3,7 +3,7 @@ import React from "react";
 export default function Speaker({ data }) {
   const { name, img } = data;
   return (
-    <div className="flex flex-col items-center w-full mb-[26px] sm:w-[50%] md:w-[25%]">
+    <div className="section-main">
       <img
         alt={name}
         src={img}
