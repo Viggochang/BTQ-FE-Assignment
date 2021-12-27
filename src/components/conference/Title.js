@@ -8,6 +8,10 @@ export default function Title() {
         "background-image":
           "url(https://2012.buildconf.com/images/nuts_red@2x.png)",
       }}
-    ></div>
+    >
+      <h2 className="pt-[9px] pb-[22px] text-[30px] text-white leading-[42px] text-center">
+        Get Ready to Build
+      </h2>
+    </div>
   );
 }
