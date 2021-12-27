@@ -26,9 +26,9 @@
 }
 
 .section-main-group{
-  @apply flex flex-wrap justify-center md:px-0;
+  @apply flex flex-wrap w-full justify-center md:px-0;
 }
-.section-main{
+.section-speaker{
   @apply flex flex-col items-center w-full mb-[26px] sm:w-[50%] md:w-[25%];
 }
 

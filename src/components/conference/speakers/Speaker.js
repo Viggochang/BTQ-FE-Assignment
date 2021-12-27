@@ -3,7 +3,7 @@ import React from "react";
 export default function Speaker({ data }) {
   const { name, img } = data;
   return (
-    <div className="section-main">
+    <div className="section-speaker">
       <img
         alt={name}
         src={img}
