@@ -3,6 +3,7 @@ import Pattern from "./components/pattern";
 import Conference from "./components/conference";
 import Workshops from "./components/workshops";
 import Festival from "./components/festival";
+import Fringe from "./components/fringe";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Conference />
       <Workshops />
       <Festival />
+      <Fringe />
     </div>
   );
 }

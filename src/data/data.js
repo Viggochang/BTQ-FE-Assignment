@@ -96,3 +96,39 @@ export const festivalData = {
     },
   ],
 };
+
+export const fringeData = {
+  title: "Fringe",
+  intro:
+    "Our fringe events are spread throughout the week, filling the evenings with even more incredible things to do. Here’s a few to get you started.",
+  fringes: [
+    {
+      title: "Kickstarter",
+      subtitle: "An Evening With",
+      intro:
+        "In this lecture, Charles Adler, co-founder of Kickstarter, will tell us all about Kickstarter’s past, present, and future.",
+      img: "https://2012.buildconf.com/images/kickstarter.png",
+    },
+    {
+      title: "Aaron Draplin",
+      subtitle: "An Evening With",
+      intro:
+        "In this evening lecture, Aaron Draplin, founder of Draplin Design Co, will share stories and lessons from his decade-long career.",
+      img: "https://2012.buildconf.com/images/draplin.png",
+    },
+    {
+      title: "Craft Beer Festival",
+      subtitle: "2nd Annual",
+      intro:
+        "Join us for an evening of local craft beers, featuring the best local micro­breweries and our very own extra-special Build beer.",
+      img: "https://2012.buildconf.com/images/beer.png",
+    },
+    {
+      title: "Open Book Exam",
+      subtitle: "The Standardistas’",
+      intro:
+        "Requiring you to avail of the web’s wealth of knowledge to answer the quiz’s formidable questions, a uniquely difficult challenge.",
+      img: "https://2012.buildconf.com/images/exam.png",
+    },
+  ],
+};
