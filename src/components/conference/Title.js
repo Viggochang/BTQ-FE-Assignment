@@ -1,5 +1,7 @@
 import React from "react";
 
+import { conferenceData } from "../../data/data";
+
 export default function Title() {
   return (
     <div
@@ -10,7 +12,7 @@ export default function Title() {
       }}
     >
       <h2 className="pt-[9px] pb-[22px] text-[30px] text-white leading-[42px] text-center md:pt-[43px] md:pb-[25px] md:text-[38px] lg:text-[48px] lg:leading-[50px] lg:pb-[30px]">
-        Get Ready to Build
+        {conferenceData.title}
       </h2>
     </div>
   );
