@@ -8,7 +8,7 @@ export default function Speakers() {
   return (
     <div>
       {speakers.map((data) => (
-        <Speaker />
+        <Speaker key={data.name} data={data} />
       ))}
     </div>
   );
