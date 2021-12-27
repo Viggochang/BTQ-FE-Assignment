@@ -1,4 +1,5 @@
 import React from "react";
+import NavIcon from "./navigation/NavIcon";
 
 export default function MobileHeader() {
   return (
@@ -10,6 +11,7 @@ export default function MobileHeader() {
             "url(https://2012.buildconf.com/images/logo-knockout@2x.png)",
         }}
       />
+      <NavIcon />
     </header>
   );
 }
