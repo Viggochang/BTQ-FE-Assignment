@@ -1,4 +1,5 @@
 import React from "react";
+import Info from "./Info";
 
 export default function Workshop({ data }) {
   const { title, subtitle, intro, img } = data;
@@ -11,6 +12,7 @@ export default function Workshop({ data }) {
           className="w-[219px] md:w-[20.15vw] md:max-w-[219px] rounded-[4px] self-center"
         />
       </div>
+      <Info />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import Workshop from "./Workshop";
+import Workshop from "./workshop";
 
 import { workshopsData } from "../../../data/data";
 
