@@ -25,4 +25,8 @@
   @apply text-[15px] leading-[21px] text-center font-light xs:text-[17px] xs:leading-[26px] md:leading-[25px] lg:text-[21px] lg:leading-[32px];
 }
 
+.section-main-group{
+  @apply flex flex-wrap justify-center px-[1.5%] md:px-0
+}
+
 @tailwind utilities;
