@@ -2,6 +2,7 @@ import React from "react";
 import Title from "./Title";
 import DateLoc from "./DateLoc";
 import Intro from "./Intro";
+import HomeRegister from "./HomeRegister";
 
 export default function Conference() {
   return (
@@ -9,6 +10,7 @@ export default function Conference() {
       <Title />
       <DateLoc />
       <Intro />
+      <HomeRegister />
     </section>
   );
 }
