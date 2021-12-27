@@ -1,8 +1,10 @@
+import Header from "./components/header";
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
-      <div className="text-2xl font-bold underline">Hello world!</div>
+      {/* <div className="text-5xl font-bold underline">Hello world!</div> */}
+      <Header />
     </div>
   );
 }
