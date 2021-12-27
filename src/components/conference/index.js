@@ -5,7 +5,7 @@ import Intro from "./Intro";
 
 export default function Conference() {
   return (
-    <section className="w-full px-[4vw] pt-[54px] bg-primary">
+    <section className="flex w-full px-[4vw] pt-[54px] bg-primary md:pt-[75px] flex-col items-center">
       <Title />
       <DateLoc />
       <Intro />
