@@ -2,6 +2,7 @@ import Header from "./components/header";
 import Pattern from "./components/pattern";
 import Conference from "./components/conference";
 import Workshops from "./components/workshops";
+import Festival from "./components/festival";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Pattern />
       <Conference />
       <Workshops />
+      <Festival />
     </div>
   );
 }
