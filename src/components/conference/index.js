@@ -14,7 +14,7 @@ export default function Conference() {
           "url(https://2012.buildconf.com/images/conf_bg@2x2.png)",
       }}
     >
-      <div class="flex flex-col items-center xl:container xl:mx-auto w-full">
+      <div class="section-container">
         <Title />
         <DateLoc />
         <Intro />

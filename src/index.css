@@ -7,6 +7,9 @@
 .section-bg-image{
   @apply bg-primary bg-[length:1500px_171px] bg-bottom bg-repeat-x;
 }
+.section-container{
+  @apply flex flex-col items-center xl:container xl:mx-auto w-full;
+}
 
 .title-background{
   @apply mb-[13px] bg-[length:54px_11px] bg-no-repeat bg-bottom md:mb-[12px] lg:mb-[10px];
