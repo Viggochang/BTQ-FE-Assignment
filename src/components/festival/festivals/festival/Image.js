@@ -8,7 +8,7 @@ export default function Image({ data }) {
       <img
         alt={title}
         src={img}
-        className="w-[219px] md:w-[20.15vw] md:max-w-[219px] rounded-[4px] self-center"
+        className="w-[219px] md:w-[28.9vw] md:max-w-[219px] rounded-[4px] self-center"
       />
     </div>
   );
