@@ -7,7 +7,7 @@ const data = [
   ["WEDNESDAY", "PRACTICAL"],
   ["THURSDAY", "CONFERENCE"],
   ["FRIDAY", "MUSIC"],
-  ["SATURDAY", "FRINGE"],
+  ["VARIOUS", "FRINGE"],
 ];
 
 export default function Navigation() {
