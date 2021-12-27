@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "./Title";
 import Intro from "./Intro";
+import InnerFestivals from "./festivals";
 
 export default function Festival() {
   return (
@@ -8,6 +9,7 @@ export default function Festival() {
       <div class="section-container">
         <Title />
         <Intro />
+        <InnerFestivals />
       </div>
     </section>
   );
