@@ -12,7 +12,7 @@ const data = [
 
 export default function Navigation() {
   return (
-    <nav className="flex w-full h-full ml-[26.5%] justify-between content-between">
+    <nav className="flex w-full h-full pl-[26.5%] justify-between content-between flex-wrap">
       {data.map((data) => (
         <NavigationItem key={data[0]} data={data} />
       ))}
