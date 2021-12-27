@@ -11,5 +11,11 @@ const data = [
 ];
 
 export default function Navigation() {
-  return <nav></nav>;
+  return (
+    <nav>
+      {data.map((data) => (
+        <NavigationItem data={data} />
+      ))}
+    </nav>
+  );
 }
