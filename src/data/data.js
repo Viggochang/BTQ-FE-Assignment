@@ -174,7 +174,7 @@ export const footerData = [
     img: "https://2012.buildconf.com/images/twitter.jpg",
   },
   {
-    title: "https://2012.buildconf.com/images/facebook.jpg",
+    title: "Keep in Touch",
     subtitle: "Keep in Touch",
     img: "https://2012.buildconf.com/images/facebook.jpg",
   },
