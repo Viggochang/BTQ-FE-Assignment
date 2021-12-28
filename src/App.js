@@ -6,6 +6,7 @@ import Festival from "./components/festival";
 import Misc from "./components/misc";
 import Sponser from "./components/sponser";
 import Footer from "./components/footer";
+import Credit from "./components/credit";
 
 import {
   workshopsData,
@@ -28,6 +29,7 @@ function App() {
       <Misc data={miscData} />
       <Sponser data={sponserData} />
       <Footer data={footerData} />
+      <Credit />
     </div>
   );
 }
