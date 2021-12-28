@@ -1,9 +1,9 @@
 import React from "react";
-import Contact from "./contact";
+import Contact from "./Contact";
 
 export default function Footer({ data }) {
   return (
-    <footer className="footer-background">
+    <footer className="footer-background bg-my-black">
       <div className="section-container">
         <div className="section-main-group justify-around md:justify-between">
           {data.map((data) => (
