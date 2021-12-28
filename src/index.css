@@ -1,6 +1,19 @@
 @tailwind base;
 @tailwind components;
 
+.web-header{
+  @apply hidden md:flex w-full h-[156px] py-[30px] bg-my-black;
+}
+.web-logo{
+  @apply w-[20.5%] h-[90px] bg-no-repeat bg-cover bg-center absolute xl:w-[calc(1165px*0.205)]
+}
+.mobile-header{
+  @apply flex w-full h-[48px] bg-my-black justify-between md:hidden
+}
+.mobile-logo{
+  @apply w-[44px] h-[44px] mb-auto mt-[1px] ml-[4px] bg-[length:238px_90px] bg-center
+}
+
 .section-background{
   @apply flex w-full px-[4vw] pt-[36px] pb-[26px] md:pt-[75px] md:px-[20px] md:pb-[69px];
 }
@@ -27,6 +40,9 @@
 .intro-text{
   @apply text-[15px] leading-[21px] text-center font-light xs:text-[17px] xs:leading-[26px] md:leading-[25px] lg:text-[21px] lg:leading-[32px];
 }
+.dateloc-text{
+  @apply pt-[3px] pb-[20px] text-[11px] text-white leading-[18px] text-center tracking-[1px] uppercase md:pb-[12px] md:pt-0 md:leading-[21px] lg:pt-[8px] lg:pb-[10px]
+}
 
 .section-main-group{
   @apply flex flex-wrap w-full justify-center md:px-0;
@@ -41,6 +57,19 @@
 
 .footer-background{
   @apply flex w-full px-[4vw] pt-[25px] md:pt-[50px] md:px-[20px] md:pb-[29px];
+}
+
+.inner-flex-box{
+  @apply flex flex-col items-center w-full mb-[26px]
+}
+.inner-subtitle-text{
+  @apply mb-[2px] tracking-[1px] text-[12px] text-info-color leading-[21px] text-center uppercase
+}
+.inner-title-text{
+  @apply mb-[15px] tracking-[1px] text-center font-light md:mb-[21px]
+}
+.inner-intro-text{
+  @apply text-[13px] leading-[21px] text-intro-color-2 font-light
 }
 
 @tailwind utilities;

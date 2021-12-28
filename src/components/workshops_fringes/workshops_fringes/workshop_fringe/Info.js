@@ -5,15 +5,9 @@ export default function Info({ data }) {
 
   return (
     <div className="py-[27px]">
-      <h4 className="mb-[2px] tracking-[1px] text-[12px] text-info-color leading-[21px] text-center uppercase">
-        {subtitle}
-      </h4>
-      <h3 className="mb-[15px] tracking-[1px] text-[18px] leading-[21px] text-center font-light md:mb-[21px]">
-        {title}
-      </h3>
-      <p className="text-[13px] leading-[21px] text-intro-color-2 font-light">
-        {intro}
-      </p>
+      <h4 className="inner-subtitle-text">{subtitle}</h4>
+      <h3 className="inner-title-text text-[18px] leading-[21px]">{title}</h3>
+      <p className="inner-intro-text">{intro}</p>
     </div>
   );
 }
