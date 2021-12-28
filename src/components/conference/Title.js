@@ -7,7 +7,7 @@ export default function Title() {
     <div
       className="title-background"
       style={{
-        "background-image":
+        backgroundImage:
           "url(https://2012.buildconf.com/images/nuts_red@2x.png)",
       }}
     >

@@ -6,7 +6,7 @@ import InnerFestivals from "./festivals";
 export default function Festival({ data }) {
   return (
     <section className="section-background">
-      <div class="section-container">
+      <div className="section-container">
         <Title title={data.title} />
         <Intro intro={data.intro} />
         <InnerFestivals data={data.content} />

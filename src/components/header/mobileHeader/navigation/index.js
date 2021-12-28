@@ -8,7 +8,7 @@ export default function Navigation({ display }) {
   return (
     <div className={navigationStyle}>
       {navData.map((data) => (
-        <NavigationItem key={data.day} data={data} />
+        <NavigationItem key={data[0]} data={data} />
       ))}
     </div>
   );

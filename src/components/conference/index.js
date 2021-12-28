@@ -10,11 +10,11 @@ export default function Conference() {
     <section
       className="section-background section-bg-image bg-primary pt-[54px]"
       style={{
-        "background-image":
+        backgroundImage:
           "url(https://2012.buildconf.com/images/conf_bg@2x2.png)",
       }}
     >
-      <div class="section-container">
+      <div className="section-container">
         <Title />
         <DateLoc />
         <Intro />
