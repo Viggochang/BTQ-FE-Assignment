@@ -32,4 +32,8 @@
   @apply flex flex-col items-center w-full mb-[26px] sm:w-[50%] md:w-[25%];
 }
 
+.sponser-background{
+  @apply flex w-full px-[4vw] pt-[36px] pb-[20px] md:pt-[50px] md:px-[20px] md:pb-[35px];
+}
+
 @tailwind utilities;
