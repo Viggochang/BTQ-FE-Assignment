@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/BTQ-FE-Assignment/static/css/main.ce32c318.css",
-    "main.js": "/BTQ-FE-Assignment/static/js/main.f5faf7ce.js",
+    "main.css": "/BTQ-FE-Assignment/static/css/main.8b752c5c.css",
+    "main.js": "/BTQ-FE-Assignment/static/js/main.0f2cb90b.js",
     "static/js/787.8f83f116.chunk.js": "/BTQ-FE-Assignment/static/js/787.8f83f116.chunk.js",
     "index.html": "/BTQ-FE-Assignment/index.html",
-    "main.ce32c318.css.map": "/BTQ-FE-Assignment/static/css/main.ce32c318.css.map",
-    "main.f5faf7ce.js.map": "/BTQ-FE-Assignment/static/js/main.f5faf7ce.js.map",
+    "main.8b752c5c.css.map": "/BTQ-FE-Assignment/static/css/main.8b752c5c.css.map",
+    "main.0f2cb90b.js.map": "/BTQ-FE-Assignment/static/js/main.0f2cb90b.js.map",
     "787.8f83f116.chunk.js.map": "/BTQ-FE-Assignment/static/js/787.8f83f116.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce32c318.css",
-    "static/js/main.f5faf7ce.js"
+    "static/css/main.8b752c5c.css",
+    "static/js/main.0f2cb90b.js"
   ]
 }
