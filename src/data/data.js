@@ -147,3 +147,12 @@ export const miscData = [
       "We’ll be establishing a base of operations at The Black Box on Hill Street, right at the epicentre of the Build festivities. Our pop-up cafe will serve a full menu all day, offer free wifi, and will be staffed by Build volunteers who’ll be constantly on hand to answer any questions.",
   },
 ];
+
+export const sponserData = [
+  { name: "Mailchimp", img: "https://2012.buildconf.com/images/mailchimp.png" },
+  { name: "Dropbox", img: "https://2012.buildconf.com/images/dropbox.png" },
+  { name: "Shopify", img: "https://2012.buildconf.com/images/shopify.png" },
+  { name: "Heroku", img: "https://2012.buildconf.com/images/heroku.png" },
+  { name: "Typecast", img: "https://2012.buildconf.com/images/typecast.png" },
+  { name: "The Manual", img: "https://2012.buildconf.com/images/manual.png" },
+];
