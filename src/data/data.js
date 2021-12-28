@@ -156,3 +156,22 @@ export const sponserData = [
   { name: "Typecast", img: "https://2012.buildconf.com/images/typecast.png" },
   { name: "The Manual", img: "https://2012.buildconf.com/images/manual.png" },
 ];
+
+export const footerData = [
+  {
+    title: "Draft Supply Co.",
+    img: "https://2012.buildconf.com/images/draft.jpg",
+  },
+  {
+    title: "Read Our Blog",
+    img: "https://2012.buildconf.com/images/tumblr.jpg",
+  },
+  {
+    title: "Follow on Twitter",
+    img: "https://2012.buildconf.com/images/twitter.jpg",
+  },
+  {
+    title: "https://2012.buildconf.com/images/facebook.jpg",
+    img: "https://2012.buildconf.com/images/facebook.jpg",
+  },
+];

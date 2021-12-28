@@ -13,6 +13,7 @@ import {
   fringeData,
   miscData,
   sponserData,
+  footerData,
 } from "./data/data";
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
       <WorkshopsFringes data={fringeData} />
       <Misc data={miscData} />
       <Sponser data={sponserData} />
-      <Footer />
+      <Footer data={footerData} />
     </div>
   );
 }
