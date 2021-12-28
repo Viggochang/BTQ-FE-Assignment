@@ -5,6 +5,7 @@ import WorkshopsFringes from "./components/workshops_fringes";
 import Festival from "./components/festival";
 import Misc from "./components/misc";
 import Sponser from "./components/sponser";
+import Footer from "./components/footer";
 
 import {
   workshopsData,
@@ -25,6 +26,7 @@ function App() {
       <WorkshopsFringes data={fringeData} />
       <Misc data={miscData} />
       <Sponser data={sponserData} />
+      <Footer />
     </div>
   );
 }
