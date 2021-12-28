@@ -1,7 +1,7 @@
 import Header from "./components/header";
 import Pattern from "./components/pattern";
 import Conference from "./components/conference";
-import Workshops from "./components/workshops";
+import WorkshopsFringes from "./components/workshops_fringes";
 import Festival from "./components/festival";
 
 import { workshopsData, festivalData, fringeData } from "./data/data";
@@ -12,8 +12,9 @@ function App() {
       <Header />
       <Pattern />
       <Conference />
-      <Workshops data={workshopsData} />
+      <WorkshopsFringes data={workshopsData} />
       <Festival data={festivalData} />
+      <WorkshopsFringes data={fringeData} />
     </div>
   );
 }

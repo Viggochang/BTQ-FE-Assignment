@@ -1,15 +1,15 @@
 import React from "react";
 import Title from "./Title";
 import Intro from "./Intro";
-import InnerWorkshops from "./workshops";
+import InnerWorkshopsFringes from "./workshops_fringes";
 
-export default function Workshops({ data }) {
+export default function WorkshopsFringes({ data }) {
   return (
     <section className="section-background">
       <div class="section-container">
         <Title title={data.title} />
         <Intro intro={data.intro} />
-        <InnerWorkshops data={data.content} />
+        <InnerWorkshopsFringes data={data.content} />
       </div>
     </section>
   );

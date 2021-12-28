@@ -1,11 +1,11 @@
 import React from "react";
-import Workshop from "./workshop";
+import WorkshopFringe from "./workshop_fringe";
 
-export default function InnerWorkshops({ data }) {
+export default function InnerWorkshopsFringes({ data }) {
   return (
     <div className="section-main-group justify-around md:justify-between">
       {data.map((data) => (
-        <Workshop key={data.title} data={data} />
+        <WorkshopFringe key={data.title} data={data} />
       ))}
     </div>
   );
