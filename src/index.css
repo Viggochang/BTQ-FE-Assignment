@@ -36,4 +36,8 @@
   @apply flex w-full px-[4vw] pt-[36px] pb-[20px] md:pt-[50px] md:px-[20px] md:pb-[35px];
 }
 
+.footer-background{
+  @apply flex w-full px-[4vw] pt-[25px] md:pt-[50px] md:px-[20px] md:pb-[29px];
+}
+
 @tailwind utilities;
