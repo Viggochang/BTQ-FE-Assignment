@@ -22,7 +22,13 @@ function App() {
   const [display, setDisplay] = useState("hidden");
   const [patternFix, setPatternFix] = useState(false);
 
-  function handleScroll() {}
+  function handleScroll() {
+    if (document.body.getBoundingClientRect().top < -156) {
+      setPatternFix(true);
+    } else {
+      setPatternFix(false);
+    }
+  }
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -31,7 +37,7 @@ function App() {
   return (
     <div className="App">
       <Header display={display} setDisplay={setDisplay} />
-      <Pattern display={display} />
+      <Pattern display={display} patternFix={patternFix} />
       <Conference display={display} />
       <WorkshopsFringes data={workshopsData} />
       <Festival data={festivalData} />

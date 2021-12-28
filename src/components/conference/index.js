@@ -11,7 +11,6 @@ export default function Conference({ display }) {
   }] pb-[171px] md:pt-[54px] md:pb-[214px]`;
   return (
     <section
-      // className="section-background conference-bg-image bg-primary pt-[54px] pb-[171px] md:pb-[214px]"
       className={sectionStyle}
       style={{
         backgroundImage:
