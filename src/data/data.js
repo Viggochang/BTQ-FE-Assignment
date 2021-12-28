@@ -160,18 +160,22 @@ export const sponserData = [
 export const footerData = [
   {
     title: "Draft Supply Co.",
+    subtitle: "Swag Out",
     img: "https://2012.buildconf.com/images/draft.jpg",
   },
   {
     title: "Read Our Blog",
+    subtitle: "What’s New?",
     img: "https://2012.buildconf.com/images/tumblr.jpg",
   },
   {
     title: "Follow on Twitter",
+    subtitle: "Get the Latest",
     img: "https://2012.buildconf.com/images/twitter.jpg",
   },
   {
     title: "https://2012.buildconf.com/images/facebook.jpg",
+    subtitle: "Keep in Touch",
     img: "https://2012.buildconf.com/images/facebook.jpg",
   },
 ];
