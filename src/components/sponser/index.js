@@ -1,9 +1,13 @@
 import React from "react";
 
-export default function Sponser() {
+export default function Sponser({ data }) {
   return (
     <section className="sponser-background">
-      <div className="section-container"></div>
+      <div className="section-container">
+        <h4 className="mb-[2px] tracking-[1px] text-[12px] text-[#999] leading-[21px] text-center uppercase">
+          Thanks to Our Sponsors
+        </h4>
+      </div>
     </section>
   );
 }

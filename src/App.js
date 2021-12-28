@@ -4,8 +4,15 @@ import Conference from "./components/conference";
 import WorkshopsFringes from "./components/workshops_fringes";
 import Festival from "./components/festival";
 import Misc from "./components/misc";
+import Sponser from "./components/sponser";
 
-import { workshopsData, festivalData, fringeData, miscData } from "./data/data";
+import {
+  workshopsData,
+  festivalData,
+  fringeData,
+  miscData,
+  sponserData,
+} from "./data/data";
 
 function App() {
   return (
@@ -17,6 +24,7 @@ function App() {
       <Festival data={festivalData} />
       <WorkshopsFringes data={fringeData} />
       <Misc data={miscData} />
+      <Sponser data={sponserData} />
     </div>
   );
 }
