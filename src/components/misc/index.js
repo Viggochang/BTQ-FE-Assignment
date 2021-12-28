@@ -1,5 +1,9 @@
 import React from "react";
 
-export default function Misc() {
-  return <div></div>;
+export default function Misc({ data }) {
+  return (
+    <section className="section-background">
+      <div className="section-container"></div>
+    </section>
+  );
 }

@@ -5,7 +5,7 @@ import WorkshopsFringes from "./components/workshops_fringes";
 import Festival from "./components/festival";
 import Misc from "./components/misc";
 
-import { workshopsData, festivalData, fringeData } from "./data/data";
+import { workshopsData, festivalData, fringeData, miscData } from "./data/data";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <WorkshopsFringes data={workshopsData} />
       <Festival data={festivalData} />
       <WorkshopsFringes data={fringeData} />
-      <Misc />
+      <Misc data={miscData} />
     </div>
   );
 }
