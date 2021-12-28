@@ -2,7 +2,7 @@
 @tailwind components;
 
 .section-background{
-  @apply flex w-full px-[4vw] pt-[36px] pb-[26px] md:pt-[75px] md:px-[20px] md:pb-[0px];
+  @apply flex w-full px-[4vw] pt-[36px] pb-[26px] md:pt-[75px] md:px-[20px] md:pb-[69px];
 }
 .conference-bg-image{
   @apply bg-[length:1500px_171px] bg-bottom bg-repeat-x;
