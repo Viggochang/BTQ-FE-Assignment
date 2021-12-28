@@ -1,9 +1,7 @@
-import React, { useState } from "react";
 import NavIcon from "./navigation/NavIcon";
 import Navigation from "./navigation";
 
-export default function MobileHeader() {
-  const [display, setDisplay] = useState("hidden");
+export default function MobileHeader({ display, setDisplay }) {
   return (
     <>
       <header className="flex w-full h-[48px] bg-my-black justify-between md:hidden">

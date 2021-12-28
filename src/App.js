@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import Header from "./components/header";
 import Pattern from "./components/pattern";
 import Conference from "./components/conference";
@@ -18,11 +19,20 @@ import {
 } from "./data/data";
 
 function App() {
+  const [display, setDisplay] = useState("hidden");
+  const [patternFix, setPatternFix] = useState(false);
+
+  function handleScroll() {}
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div className="App">
-      <Header />
-      <Pattern />
-      <Conference />
+      <Header display={display} setDisplay={setDisplay} />
+      <Pattern display={display} />
+      <Conference display={display} />
       <WorkshopsFringes data={workshopsData} />
       <Festival data={festivalData} />
       <WorkshopsFringes data={fringeData} />
