@@ -4,7 +4,7 @@ export default function Info({ data }) {
   const { title, subtitle, intro, highlight } = data;
 
   return (
-    <div className="py-[27px]">
+    <div className="pb-[27px]">
       <h4 className="mb-[2px] tracking-[1px] text-[12px] text-[#999] leading-[21px] text-center uppercase">
         {subtitle}
       </h4>

@@ -4,7 +4,7 @@ import InnerMiscs from "./miscs";
 export default function Miscs({ data }) {
   return (
     <section
-      className="section-background section-bg-image"
+      className="section-background section-bg-image pb-0"
       style={{
         backgroundImage:
           "url(https://2012.buildconf.com/images/section_divider@2x.png)",
