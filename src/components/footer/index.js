@@ -7,7 +7,7 @@ export default function Footer({ data }) {
       <div className="section-container">
         <div className="section-main-group justify-around md:justify-between">
           {data.map((data) => (
-            <Contact key={data.title} />
+            <Contact key={data.title} data={data} />
           ))}
         </div>
       </div>
