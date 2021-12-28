@@ -4,8 +4,11 @@
 .section-background{
   @apply flex w-full px-[4vw] pt-[36px] md:pt-[75px] md:px-[20px] md:pb-[0px];
 }
-.section-bg-image{
+.conference-bg-image{
   @apply bg-[length:1500px_171px] bg-bottom bg-repeat-x;
+}
+.section-bg-image{
+  @apply bg-[length:32px_20px] bg-bottom bg-repeat-x;
 }
 .section-container{
   @apply flex flex-col items-center xl:container xl:mx-auto w-full;
