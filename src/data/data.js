@@ -139,6 +139,7 @@ export const miscData = [
     subtitle: "Pop-Up Shop",
     intro:
       "New to Build in 2012 is the Draft Supply Co. pop-up shop, stocking quality goods for the discerning digital craftsman. Low on stationary, need a gift, or feel like picking up some Build swag? ",
+    highlight: "We’re open for business.",
   },
   {
     title: "The Black Box",

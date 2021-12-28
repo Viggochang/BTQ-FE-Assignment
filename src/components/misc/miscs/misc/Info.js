@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Info({ data }) {
-  const { title, subtitle, intro } = data;
+  const { title, subtitle, intro, highlight } = data;
 
   return (
     <div className="py-[27px]">
@@ -11,8 +11,11 @@ export default function Info({ data }) {
       <h3 className="mb-[15px] tracking-[1px] text-[18px] leading-[21px] text-center font-light md:mb-[21px]">
         {title}
       </h3>
-      <p className="text-[13px] leading-[21px] text-[#808080] font-light">
+      <p className="inline text-[13px] leading-[21px] text-[#808080] font-light">
         {intro}
+      </p>
+      <p className="inline text-[13px] leading-[21px] text-primary font-light">
+        {highlight || null}
       </p>
     </div>
   );
